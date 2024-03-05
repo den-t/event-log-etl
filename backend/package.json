@@ -12,7 +12,8 @@
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
     "express": "^4.18.3",
-    "zod": "^3.22.4"
+    "zod": "^3.22.4",
+    "zod-express-middleware": "^1.4.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
