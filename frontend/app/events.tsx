@@ -12,7 +12,7 @@ interface eventsProps {
 }
 
 // TODO: presentation can be adjusted as needed later
-const formatTimestamp = (timestamp: string) => (new Date(timestamp)).toString()
+const formatTimestamp = (timestamp: string) => (new Date(timestamp)).toUTCString()
 
 export default function Events({ events }: eventsProps) {
   const renderEvent = (event: EventLog, index: number) => {
